@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" id="locationInput" placeholder="Enter location">
+            <button onclick="fetchWeather()">Get Weather</button>
+        </div>
+        <div id="default-info">
+            <h2>Welcome to the Weather App</h2>
+            <p>Enter a location to get the current weather and a 7-day forecast.</p>
+        </div>
+        <div id="weather"></div>
+        <div id="forecast"></div>
+        <div id="additional-features">
+            <h2>Additional Features</h2>
+            <p>Get detailed weather information including UV index, sunrise and sunset times, and a 7-day weather forecast.</p>
+            <p>Click on the weather icons for more details.</p>
+        </div>
+    </div>
+    <script src="task5.js"></script>
+</body>
+</html>
